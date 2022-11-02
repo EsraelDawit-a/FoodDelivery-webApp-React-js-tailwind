@@ -3,3 +3,14 @@
 @tailwind utilities;
 
 
+@layer base {
+    body{
+      @apply p-0 m-0;
+    }
+}
+
+@layer utilities{
+  .active-menue{
+    @apply text-[#ee4444]
+  }
+}
