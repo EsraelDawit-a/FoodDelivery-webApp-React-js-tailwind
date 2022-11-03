@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, } from '@trendyol-js/react-carousel';
+import { Carousel } from '@trendyol-js/react-carousel';
 
 import { RiArrowLeftSLine } from 'react-icons/ri'
 import { RiArrowRightSLine } from 'react-icons/ri'
@@ -80,12 +80,13 @@ export function Menue() {
       {/* right slider */}
 
       <div>
-      <Carousel show={3.5} slide={3} swiping={true} useArrowKeys={true} >
-       <div> <img src="https://static.toiimg.com/thumb/56933159.cms?imgsize=686279&width=300&height=300" alt="" /></div>
-       <div> <img src="https://static.toiimg.com/thumb/56933129.cms?imgsize=686279&width=300&height=300" alt="" /></div>
-       
-
-    </Carousel> 
+      <Carousel show={3.5} slide={3} swiping={true}>
+          <div className="w-52 bg-red">fasfasfas</div>
+          <div className="w-52 bg-red">fasfasfas</div>
+          <div className="w-52 bg-red">fasfasfas</div>
+          <div className="w-52 bg-red">fasfasfas</div>
+        
+        </Carousel>
       </div>
      </div>
 
