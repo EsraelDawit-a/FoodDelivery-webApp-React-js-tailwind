@@ -4,6 +4,7 @@ import dot from '../assets/dot.png'
 
 import { BiSearch, BiLogIn } from 'react-icons/bi'
 import { BsHandbag } from 'react-icons/bs'
+import { RiMenu3Line } from 'react-icons/ri'
 
 import Button from '../components/Button';
 
@@ -17,6 +18,7 @@ export function Header() {
             <div className="flex">
                 <img src={logo} alt="logo" />
             </div>
+            <div className="hidden md:flex">
             <div className="middle hover:cursor-pointer flex justify-between list-none font-semibold">
                 <li className='px-5 active-menue'>
                     <div className="flex justify-center items-center gap-1 flex-col">
@@ -50,6 +52,11 @@ export function Header() {
                     <p className='font-semibold'>Login</p>
                 </Button>
 
+            </div>
+       </div>
+
+            <div className="flex md:hidden text-3xl text-[#EB5757] font-bold hover:text-black transition-all ease-out duration-150 cursor-pointer ">
+                <RiMenu3Line/>
             </div>
         </div>
     );
